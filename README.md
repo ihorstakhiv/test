@@ -15,7 +15,8 @@ WARNING: Check your gpg version.
 ```
 gpg --version
 ```
-Update gpg if version lover then 2.2
+Update gpg if version lover then 2.2.
+
 Generate and save your personal GPG key using a command
 ```
 gpg --gen-key
@@ -23,6 +24,7 @@ gpg --gen-key
 
 ### Adding new user
 To access encrypted data, already added user should add your public GPG key to the secret repo:
+
 Export public GPG key.
 ```
 gpg --armor --output public-key.gpg --export user@example.com
@@ -30,6 +32,7 @@ gpg --armor --output public-key.gpg --export user@example.com
 Use the email address associated with the public key.
 
 Send public-key.gpg to already added user. 
+
 Import user key into your gpg setup by running.
 ```
 gpg --import public-key.gpg. 
