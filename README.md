@@ -17,7 +17,7 @@ gpg --version
 ```
 Update gpg if version lover then 2.2.
 
-Generate and save your personal GPG key using a command
+Generate and save your personal GPG key using a command.
 ```
 gpg --gen-key
 ```
